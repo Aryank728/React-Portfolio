@@ -12,9 +12,21 @@ const montserrat = localFont({
 
 const googleSans = localFont({
   src: [
-    { path: "../public/fonts/GoogleSans-Regular.ttf", weight: "400", style: "normal" },
-    { path: "../public/fonts/GoogleSans-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../public/fonts/GoogleSans-Bold.ttf", weight: "700", style: "normal" },
+    {
+      path: "../public/fonts/GoogleSans-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/GoogleSans-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/GoogleSans-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
   ],
   variable: "--font-google-sans",
   display: "swap",
@@ -22,7 +34,8 @@ const googleSans = localFont({
 
 export const metadata = {
   metadataBase: new URL("https://aryankr.in"),
-  title: "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
+  title:
+    "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
   description:
     "Official portfolio of Aryan Kumar, Software Engineer specializing in GEN AI, DevOps, Azure, system architecture, and full-stack development. Explore projects, resume, and contact.",
   keywords:
@@ -45,7 +58,8 @@ export const metadata = {
     locale: "en_US",
     url: "https://aryankr.in",
     siteName: "Aryan Kumar Portfolio",
-    title: "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
+    title:
+      "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
     description:
       "Official portfolio of Aryan Kumar, Software Engineer specializing in GEN AI, DevOps, Azure, system architecture, and full-stack development.",
     images: [
@@ -71,7 +85,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
   return (
     <html
       lang="en"
@@ -80,7 +93,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <head>
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-FC0PX75F4B"
         />
@@ -88,12 +101,12 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FC0PX75F4B');`,
           }}
-        />
-        <script
+        />*/}
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t);document.documentElement.style.colorScheme=t}else{document.documentElement.setAttribute("data-theme","dark");document.documentElement.style.colorScheme="dark"}}catch(e){document.documentElement.setAttribute("data-theme","dark");document.documentElement.style.colorScheme="dark"}})()`,
           }}
-        />
+        />*/}
         <link rel="me" href="https://github.com/aryanjsx" />
         <link rel="me" href="https://www.linkedin.com/in/aryanjsx" />
         <link rel="me" href="https://x.com/aryanjsx" />
@@ -101,8 +114,16 @@ export default function RootLayout({ children }) {
         <link rel="me" href="https://dev.to/aryanjsx" />
         <link rel="me" href="https://www.npmjs.com/~aryanjsx" />
         <link rel="me" href="https://app.daily.dev/aryanjsx" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://api.github.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://www.googletagmanager.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://api.github.com"
+          crossOrigin="anonymous"
+        />
         <link rel="dns-prefetch" href="https://api.github.com" />
         <script
           type="application/ld+json"
@@ -115,12 +136,15 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <noscript>
-          <div style={{ padding: "40px", textAlign: "center", fontFamily: "sans-serif" }}>
+          <div
+            style={{
+              padding: "40px",
+              textAlign: "center",
+              fontFamily: "sans-serif",
+            }}
+          >
             <h1>Aryan Kumar</h1>
-            <p>
-              Software Engineer &amp; GEN AI Developer. Aryan Kumar — portfolio,
-              projects, resume and contact.
-            </p>
+            <p>Software Engineer</p>
             <p>
               Please enable JavaScript to view this portfolio at{" "}
               <a href="https://aryankr.in">aryankr.in</a>.

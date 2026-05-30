@@ -11,17 +11,17 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
   const prev = useCallback(
     () =>
       setSelectedIndex((i) =>
-        i !== null ? (i - 1 + screenshots.length) % screenshots.length : null
+        i !== null ? (i - 1 + screenshots.length) % screenshots.length : null,
       ),
-    [screenshots.length]
+    [screenshots.length],
   );
 
   const next = useCallback(
     () =>
       setSelectedIndex((i) =>
-        i !== null ? (i + 1) % screenshots.length : null
+        i !== null ? (i + 1) % screenshots.length : null,
       ),
-    [screenshots.length]
+    [screenshots.length],
   );
 
   useEffect(() => {
@@ -52,7 +52,13 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
               border: `1px solid ${theme.text}15`,
             }}
           >
-            <div style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}>
+            <div
+              style={{
+                position: "relative",
+                width: "100%",
+                aspectRatio: "16/9",
+              }}
+            >
               <Image
                 src={src}
                 alt={`${projectName} screenshot ${i + 1}`}
@@ -72,14 +78,16 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
           role="dialog"
           aria-label="Image preview"
         >
-          <div
-            style={modalStyle}
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div style={modalStyle} onClick={(e) => e.stopPropagation()}>
             <button
               type="button"
               onClick={close}
-              style={{ ...navBtnStyle, position: "absolute", top: 12, right: 12 }}
+              style={{
+                ...navBtnStyle,
+                position: "absolute",
+                top: 12,
+                right: 12,
+              }}
               aria-label="Close"
             >
               ✕
@@ -90,7 +98,13 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
                 <button
                   type="button"
                   onClick={prev}
-                  style={{ ...navBtnStyle, position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)" }}
+                  style={{
+                    ...navBtnStyle,
+                    position: "absolute",
+                    left: 12,
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                  }}
                   aria-label="Previous image"
                 >
                   ‹
@@ -98,7 +112,13 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
                 <button
                   type="button"
                   onClick={next}
-                  style={{ ...navBtnStyle, position: "absolute", right: 12, top: "50%", transform: "translateY(-50%)" }}
+                  style={{
+                    ...navBtnStyle,
+                    position: "absolute",
+                    right: 12,
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                  }}
                   aria-label="Next image"
                 >
                   ›
@@ -116,7 +136,14 @@ export default function Gallery({ screenshots = [], projectName = "" }) {
               priority
             />
 
-            <p style={{ color: "#8D8D8D", textAlign: "center", marginTop: 12, fontSize: "0.85rem" }}>
+            <p
+              style={{
+                color: "#8D8D8D",
+                textAlign: "center",
+                marginTop: 12,
+                fontSize: "0.85rem",
+              }}
+            >
               {selectedIndex + 1} / {screenshots.length}
             </p>
           </div>
@@ -173,6 +200,8 @@ const navBtnStyle = {
 };
 
 const fullImgStyle = {
+  width: "auto",
+  height: "auto",
   maxWidth: "100%",
   maxHeight: "80vh",
   borderRadius: 8,

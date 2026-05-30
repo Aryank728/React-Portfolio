@@ -18,7 +18,9 @@ export default function ArchitectureDiagram({ src, alt, caption }) {
           padding: "1.5rem",
         }}
       >
-        <div style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}>
+        <div
+          style={{ position: "relative", width: "100%", aspectRatio: "16/9" }}
+        >
           <Image
             src={src}
             alt={alt || "Architecture diagram"}
