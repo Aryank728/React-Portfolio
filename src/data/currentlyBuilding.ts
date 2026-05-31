@@ -10,12 +10,22 @@ export const currentlyBuilding: CurrentProject[] = [
     link: "https://github.com/aryanjsx/AURA",
   },
   {
-    title: "AURA MCP Server",
+    title: "Lyrix",
     description:
-      "An MCP server connecting Notion to your filesystem — interprets tasks with AI, scaffolds boilerplate, and updates Notion with the result.",
+      "An music streaming platform that transforms YouTube into a premium audio experience. Features smart music and podcast filtering, playlist management, personalized recommendations, and synchronized lyrics in a modern, ad-free interface.",
     status: "Beta",
-    techStack: ["Python", "MCP Protocol", "Notion API", "FastAPI"],
-    link: "https://github.com/aryanjsx/aura-mcp",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Prisma",
+      "YouTube API",
+      "Redis",
+      "Tailwind CSS",
+    ],
+    link: "https://github.com/aryanjsx/Lyrix",
   },
   {
     title: "Code Converter",

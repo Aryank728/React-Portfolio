@@ -7,6 +7,6 @@ export const socialMediaLinks = {
   codechef: "https://www.codechef.com/users/aryanjsx",
   leetcode: "https://leetcode.com/u/aryanjsx/",
   hackerrank: "https://www.hackerrank.com/profile/aryanjsx",
-  gfg: "https://auth.geeksforgeeks.org/user/aryanjsx/practice",
+  gfg: "https://www.geeksforgeeks.org/profile/aryanjsx",
   medium: "https://medium.com/@aryanjsx",
 };
