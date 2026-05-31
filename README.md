@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Software Engineer · Gen AI Developer · Full-Stack Engineer**
+**Software Engineer**
 
 [![Live](https://img.shields.io/badge/Live-aryankr.in-00C7B7?style=for-the-badge&logo=link)](https://www.aryankr.in)
 [![Vercel](https://img.shields.io/badge/Vercel-deployed-000000?style=for-the-badge&logo=vercel)](https://aryankr.in)
@@ -11,7 +11,7 @@
 [![Node](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 
-*A modern, responsive developer portfolio built with Next.js App Router, featuring entity SEO, dynamic content, and Knowledge Graph signals.*
+_A modern, responsive developer portfolio built with Next.js App Router, featuring entity SEO, dynamic content, and Knowledge Graph signals._
 
 </div>
 
@@ -19,22 +19,22 @@
 
 ## About
 
-Portfolio and **Entity Home Page** for **Aryan Kumar** (`aryanjsx`) — Software Engineer at LTIMindtree, Gen AI & DevOps enthusiast, creator of npm and PyPI packages. Built with Next.js 16 (App Router), React 19, and TypeScript, optimized for performance, search, and identity discovery.
+Portfolio and **Entity Home Page** for **Aryan Kumar** (`aryanjsx`) — Software Engineer at LTIMindtree, DevOps enthusiast, creator of npm and PyPI packages. Built with Next.js 16 (App Router), React 19, and TypeScript, optimized for performance, search, and identity discovery.
 
 ---
 
 ## Tech Stack
 
-| Layer | Technologies |
-|-------|-------------|
-| **Framework** | Next.js 16 (App Router), React 19, TypeScript |
-| **Styling** | CSS Modules, Styled Components, Google Sans fonts |
-| **Animations** | React Awesome Reveal |
-| **Icons** | Iconify, React Icons |
-| **Testing** | Jest 30, React Testing Library |
-| **Tooling** | ESLint 9, next-sitemap |
-| **Deployment** | Vercel (with serverless sitemap API) |
-| **SEO** | JSON-LD, Open Graph, Twitter Cards, Sitemaps |
+| Layer          | Technologies                                      |
+| -------------- | ------------------------------------------------- |
+| **Framework**  | Next.js 16 (App Router), React 19, TypeScript     |
+| **Styling**    | CSS Modules, Styled Components, Google Sans fonts |
+| **Animations** | React Awesome Reveal                              |
+| **Icons**      | Iconify, React Icons                              |
+| **Testing**    | Jest 30, React Testing Library                    |
+| **Tooling**    | ESLint 9, next-sitemap                            |
+| **Deployment** | Vercel (with serverless sitemap API)              |
+| **SEO**        | JSON-LD, Open Graph, Twitter Cards, Sitemaps      |
 
 ---
 
@@ -42,13 +42,13 @@ Portfolio and **Entity Home Page** for **Aryan Kumar** (`aryanjsx`) — Software
 
 ### Design & Experience
 
-| Feature | Description |
-|---------|-------------|
-| **Themes** | Dark & light mode with smooth transitions and localStorage persistence |
-| **Splash** | Custom animated splash screen on first visit |
-| **Responsive** | Mobile-first, works on all devices |
-| **Animations** | Scroll reveals and page transitions |
-| **Typewriter** | Rotating role titles on the hero section |
+| Feature        | Description                                                            |
+| -------------- | ---------------------------------------------------------------------- |
+| **Themes**     | Dark & light mode with smooth transitions and localStorage persistence |
+| **Splash**     | Custom animated splash screen on first visit                           |
+| **Responsive** | Mobile-first, works on all devices                                     |
+| **Animations** | Scroll reveals and page transitions                                    |
+| **Typewriter** | Rotating role titles on the hero section                               |
 
 ### Pages
 
@@ -61,7 +61,7 @@ Portfolio and **Entity Home Page** for **Aryan Kumar** (`aryanjsx`) — Software
 
 ### SEO & Identity
 
-- **Entity Home Page** ([`/entity.html`](https://aryankr.in/entity.html)) — Central hub for the aryanjsx identity
+- **Entity Home Page** ([`/entity.html`](https://aryankr.in/entity.html)) — Central hub for the Aryan Kumar identity
 - **Image Ownership** ([`/image-ownership.html`](https://aryankr.in/image-ownership.html)) — Media verification page
 - **JSON-LD** — Person, WebSite structured data
 - **Sitemaps** — Auto-generated pages sitemap + image sitemap via next-sitemap
@@ -127,16 +127,16 @@ npm start
 
 ### Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Development server with hot reload |
-| `npm run build` | Production build (auto-generates sitemap via postbuild) |
-| `npm start` | Start production server |
-| `npm run lint` | Run ESLint |
-| `npm run lint:fix` | Auto-fix lint issues |
-| `npm test` | Run tests |
-| `npm run test:ci` | Run tests with coverage (CI mode) |
-| `npm run analyze` | Bundle analysis |
+| Script             | Description                                             |
+| ------------------ | ------------------------------------------------------- |
+| `npm run dev`      | Development server with hot reload                      |
+| `npm run build`    | Production build (auto-generates sitemap via postbuild) |
+| `npm start`        | Start production server                                 |
+| `npm run lint`     | Run ESLint                                              |
+| `npm run lint:fix` | Auto-fix lint issues                                    |
+| `npm test`         | Run tests                                               |
+| `npm run test:ci`  | Run tests with coverage (CI mode)                       |
+| `npm run analyze`  | Bundle analysis                                         |
 
 ---
 
@@ -165,6 +165,6 @@ Deployed on **Vercel**. The `vercel.json` configures:
 
 <div align="center">
 
-**Aryan Kumar (aryanjsx)** · [aryankr.in](https://www.aryankr.in)
+**Aryan Kumar** · [aryankr.in](https://www.aryankr.in)
 
 </div>
