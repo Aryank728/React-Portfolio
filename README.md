@@ -1,4 +1,4 @@
-# Aryan JSX · Portfolio
+# Aryan Kumar · Portfolio
 
 <div align="center">
 
@@ -19,7 +19,7 @@ _A modern, responsive developer portfolio built with Next.js App Router, featuri
 
 ## About
 
-Portfolio and **Entity Home Page** for **Aryan Kumar** (`aryanjsx`) — Software Engineer at LTIMindtree, DevOps enthusiast, creator of npm and PyPI packages. Built with Next.js 16 (App Router), React 19, and TypeScript, optimized for performance, search, and identity discovery.
+Portfolio and **Entity Home Page** for **Aryan Kumar** — Software Engineer at LTIMindtree, DevOps enthusiast, creator of npm and PyPI packages. Built with Next.js 16 (App Router), React 19, and TypeScript, optimized for performance, search, and identity discovery.
 
 ---
 
