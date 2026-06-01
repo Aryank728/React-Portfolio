@@ -257,7 +257,7 @@ export const projects = {
         "Enabled deployment in secure and air-gapped environments where cloud AI solutions are unsuitable.",
       ],
       architectureDiagram: "/projects/aura/ar.png",
-      screenshots: ["/projects/aura/AURA1.JPG", "/projects/aura/AURA2.jpg"],
+      screenshots: ["/projects/aura/AURA1.jpg", "/projects/aura/AURA2.jpg"],
       githubUrl: "https://github.com/aryanjsx/AURA",
       liveUrl: "https://aryanjsx.github.io/AURA/",
     },

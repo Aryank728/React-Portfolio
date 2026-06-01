@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import { personSchema, websiteSchema } from "../src/utils/structuredData";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Providers from "./Providers";
 import "../src/styles/globals.css";
 import "../src/styles/social-icons.css";
@@ -34,10 +35,9 @@ const googleSans = localFont({
 
 export const metadata = {
   metadataBase: new URL("https://aryankr.in"),
-  title:
-    "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
+  title: "Aryan Kumar | Software Engineer",
   description:
-    "Official portfolio of Aryan Kumar, Software Engineer specializing in GEN AI, DevOps, Azure, system architecture, and full-stack development. Explore projects, resume, and contact.",
+    "Official portfolio of Aryan Kumar, Software Engineer specializing in DevOps, Azure, system architecture, and full-stack development. Explore projects, resume, and contact.",
   keywords:
     "aryan kumar, aryan kumar developer, aryan kumar github, aryan kumar portfolio, aryan kumar gen ai developer, aryan kumar devops engineer, aryan kumar software engineer, full stack developer, software engineer portfolio, aryan kumar azure, aryan kumar npm",
   authors: [{ name: "Aryan Kumar" }],
@@ -58,16 +58,15 @@ export const metadata = {
     locale: "en_US",
     url: "https://aryankr.in",
     siteName: "Aryan Kumar Portfolio",
-    title:
-      "Aryan Kumar | Software Engineer | GEN AI Developer | Full-Stack Developer",
+    title: "Aryan Kumar | Software Engineer",
     description:
-      "Official portfolio of Aryan Kumar, Software Engineer specializing in GEN AI, DevOps, Azure, system architecture, and full-stack development.",
+      "Official portfolio of Aryan Kumar, Software Engineer specializing in DevOps, Azure, system architecture, and full-stack development.",
     images: [
       {
         url: "/seo/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Aryan Kumar — Software Engineer & Full Stack Developer",
+        alt: "Aryan Kumar — Software Engineer",
       },
     ],
   },
@@ -93,20 +92,11 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <head>
-        {/* <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-FC0PX75F4B"
-        />
         <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-FC0PX75F4B');`,
-          }}
-        />*/}
-        {/* <script
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t);document.documentElement.style.colorScheme=t}else{document.documentElement.setAttribute("data-theme","dark");document.documentElement.style.colorScheme="dark"}}catch(e){document.documentElement.setAttribute("data-theme","dark");document.documentElement.style.colorScheme="dark"}})()`,
           }}
-        />*/}
+        />
         <link rel="me" href="https://github.com/aryanjsx" />
         <link rel="me" href="https://www.linkedin.com/in/aryanjsx" />
         <link rel="me" href="https://x.com/aryanjsx" />
@@ -152,6 +142,7 @@ export default function RootLayout({ children }) {
           </div>
         </noscript>
         <Providers>{children}</Providers>
+        <GoogleAnalytics gaId="G-FC0PX75F4B" />
       </body>
     </html>
   );
